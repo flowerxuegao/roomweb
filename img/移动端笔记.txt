@@ -1,0 +1,65 @@
+1.  chrome emluation 
+
+模拟器，模拟移动端行为
+2.  移动端开发tips
+
+兼容性
+操作系统  Android ios    firefox os
+内核      webkit         greasemonkey
+3.处理的分辨率不同
+4.css3代替dom animation
+  css3使用设备GPU渲染，效率高
+5.移动端的开发框架和库
+特点 ：轻  效率
+	jQuery mobile 
+	angluar mobile 
+	zepto.js
+6.touch事件 触摸事件
+  touchstart->touchmove->touchend
+  touchcancel（少用）  系统事件发生的时候触发
+7.tap事件  singletap  doubletap longtap
+swipe滑动屏幕事件  swipeLeft,swipeRight,swipeDown
+8.为什么使用touch
+  click事件300ms的延迟
+  touch事件支持多点触摸
+  手势操作
+9.canvas render
+优化技巧  canvas代替img标签   html5canvas
+drawImage API
+drawImage(img,x,y)  在canvas上绘制图片
+drawImage(img,x,y,width,height)  在canvas上缩放并绘制图片
+width，height控制图片的缩放
+10.css3 animation
+ @keyframes  关键帧 
+ animation-name(动画名称)
+ animation-duration(动画持续时间)
+ animation-delay(持续时间)
+ animation-timing-function(动画形变函数指定)
+ animation-play-state(播放状态指定)
+ animation-interation-count:infinite;
+
+11.css3动画时间 webkitAnimationEnd
+css3框架  animate.css
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
